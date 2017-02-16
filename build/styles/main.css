@@ -1,9 +1,17 @@
-body {
-  padding-top: 70px; }
+.imports .list-group-item {
+  color: #FFFFFF; }
 
-.starter-template {
-  padding: 40px 15px;
-  text-align: center; }
+.imports .list-group-item.list-group-item-success {
+  background: #5cb85c; }
+
+.imports .list-group-item.list-group-item-info {
+  background: #2e6da4; }
+
+.imports .list-group-item.list-group-item-warning {
+  background: #f0ad4e; }
+
+.imports .list-group-item.list-group-item-danger {
+  background: #bf3232; }
 
 .variables .red h3 {
   color: #bf3232; }
@@ -28,21 +36,6 @@ body {
 
 .variables .blue span {
   background: #2e6da4; }
-
-.imports .list-group-item {
-  color: #ffffff; }
-
-.imports .list-group-item.list-group-item-success {
-  background: #5cb85c; }
-
-.imports .list-group-item.list-group-item-info {
-  background: #2e6da4; }
-
-.imports .list-group-item.list-group-item-warning {
-  background: #f0ad4e; }
-
-.imports .list-group-item.list-group-item-danger {
-  background: #bf3232; }
 
 .nesting .panel.panel-default .panel-heading {
   color: #FFFFFF;
@@ -78,5 +71,12 @@ body {
 
 .inheritance .alert-danger {
   background: #bf3232; }
+
+body {
+  padding-top: 70px; }
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

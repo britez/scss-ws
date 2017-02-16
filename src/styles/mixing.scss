@@ -1,0 +1,9 @@
+.mixins .col-md-12 {
+  margin: 0 0 20px 0;
+}
+
+.mixins .alert, .mixins button, .mixins .progress {
+  -webkit-box-shadow: -4px 9px 7px -5px rgba(122,122,122,1);
+  -moz-box-shadow: -4px 9px 7px -5px rgba(122,122,122,1);
+  box-shadow: -4px 9px 7px -5px rgba(122,122,122,1);
+}
