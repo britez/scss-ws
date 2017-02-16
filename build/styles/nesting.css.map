@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAKI,4CAAe;EACb,KAAK,ECFH,OAAO;EDGT,UAAU,ECPR,OAAO;ADWT,6EAAe;EACb,UAAU,ECTX,OAAO;ADYR,8GAAgD;EAC9C,UAAU,ECfZ,OAAO",
+"sources": ["../../src/styles/nesting.scss","../../src/styles/variables.scss"],
 "names": [],
 "file": "nesting.css"
 }

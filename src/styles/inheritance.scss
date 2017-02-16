@@ -1,21 +1,25 @@
-.inheritance .alert-success, .inheritance .alert-info, .inheritance .alert-danger, .inheritance .alert-warning {
-  text-align: center;
-  font-weight: bold;
-  color: $white;
-}
+.inheritance {
 
-.inheritance .alert-success {
-  background: $green;
-}
+  .alert-success, .inheritance .alert-info, .inheritance .alert-danger, .inheritance .alert-warning {
+    text-align: center;
+    font-weight: bold;
+    color: $white;
+  }
 
-.inheritance .alert-info {
-  background: $blue;
-}
+  .alert-success {
+    background: $green;
+  }
 
-.inheritance .alert-warning {
-  background: $yellow;
-}
+  .alert-info {
+    background: $blue;
+  }
 
-.inheritance .alert-danger {
-  background: $red;
+  .alert-warning {
+    background: $yellow;
+  }
+
+  .alert-danger {
+    background: $red;
+  }
+  
 }

@@ -1,12 +1,23 @@
-.nesting .panel.panel-default .panel-heading {
-  color: $white;
-  background: $green;
-}
+@import 'variables';
 
-.nesting .panel.panel-default .panel-body .panel.panel-default .panel-heading {
-  background: $blue;
-}
+.nesting {
 
-.nesting .panel.panel-default .panel-body .panel.panel-default .panel-body .panel.panel-default .panel-heading {
-  background: $red;
+  .panel.panel-default {
+    .panel-heading {
+      color: $white;
+      background: $green;
+    }
+
+    .panel-body .panel.panel-default {
+      .panel-heading {
+        background: $blue;
+      }
+
+      .panel-body .panel.panel-default .panel-heading {
+        background: $red;
+      }
+    }
+
+  }
+
 }

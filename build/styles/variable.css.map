@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAII,kBAAE;EACA,KAAK,ECJL,OAAO;ADMT,oBAAI;EACF,UAAU,ECPV,OAAO;ADWT,oBAAE;EACA,KAAK,ECbH,OAAO;ADgBX,sBAAI;EACF,UAAU,ECjBR,OAAO;ADsBX,qBAAE;EACA,KAAK,ECrBF,OAAO;ADwBZ,uBAAI;EACF,UAAU,ECzBP,OAAO;AD8BZ,mBAAE;EACA,KAAK,EC9BJ,OAAO;ADgCV,qBAAI;EACF,UAAU,ECjCT,OAAO",
+"sources": ["../../src/styles/variable.scss","../../src/styles/variables.scss"],
 "names": [],
 "file": "variable.css"
 }

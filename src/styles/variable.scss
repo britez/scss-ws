@@ -1,31 +1,40 @@
-.variables .red h3{
-  color: $red;
-}
+@import 'variables';
 
-.variables .red span{
-  background: $red;
-}
+.variables {
+  .red {
+    h3{
+      color: $red;
+    }
+    span{
+      background: $red;
+    }
+  }
+  .green {
+    h3{
+      color: $green;
+    }
 
-.variables .green h3{
-  color: $green;
-}
+    span{
+      background: $green;
+    }
+  }
 
-.variables .green span{
-  background: $green;
-}
+  .yellow {
+    h3{
+      color: $yellow;
+    }
 
-.variables .yellow h3{
-  color: $yellow;
-}
+    span{
+      background: $yellow;
+    }
+  }
 
-.variables .yellow span{
-  background: $yellow;
-}
-
-.variables .blue h3{
-  color: $blue;
-}
-
-.variables .blue span{
-  background: $blue;
+  .blue {
+    h3{
+      color: $blue;
+    }
+    span{
+      background: $blue;
+    }
+  }
 }

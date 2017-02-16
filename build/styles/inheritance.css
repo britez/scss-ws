@@ -1,22 +1,35 @@
 /*
 Error: Undefined variable: "$white".
-        on line 4 of src/styles/inheritance.scss
+        on line 6 of src/styles/inheritance.scss
 
-1: .inheritance .alert-success, .inheritance .alert-info, .inheritance .alert-danger, .inheritance .alert-warning {
-2:   text-align: center;
-3:   font-weight: bold;
-4:   color: $white;
-5: }
-6: 
-7: .inheritance .alert-success {
-8:   background: $green;
-9: }
+1: .inheritance {
+2: 
+3:   .alert-success, .inheritance .alert-info, .inheritance .alert-danger, .inheritance .alert-warning {
+4:     text-align: center;
+5:     font-weight: bold;
+6:     color: $white;
+7:   }
+8: 
+9:   .alert-success {
+10:     background: $green;
+11:   }
 
 Backtrace:
-src/styles/inheritance.scss:4
+src/styles/inheritance.scss:6
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
@@ -65,4 +78,4 @@ src/styles/inheritance.scss:4
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 4 of src/styles/inheritance.scss\A \A 1: .inheritance .alert-success, .inheritance .alert-info, .inheritance .alert-danger, .inheritance .alert-warning {\A 2:   text-align: center;\A 3:   font-weight: bold;\A 4:   color: $white;\A 5: }\A 6: \A 7: .inheritance .alert-success {\A 8:   background: $green;\A 9: }"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 6 of src/styles/inheritance.scss\A \A 1: .inheritance {\A 2: \A 3:   .alert-success, .inheritance .alert-info, .inheritance .alert-danger, .inheritance .alert-warning {\A 4:     text-align: center;\A 5:     font-weight: bold;\A 6:     color: $white;\A 7:   }\A 8: \A 9:   .alert-success {\A 10:     background: $green;\A 11:   }"; }
