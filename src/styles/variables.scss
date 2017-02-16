@@ -3,3 +3,9 @@ $red: #bf3232;
 $yellow: #f0ad4e;
 $blue: #2e6da4;
 $white: #FFFFFF;
+
+@mixin shadow($color) {
+  -webkit-box-shadow: -4px 9px 7px -5px $color;
+  moz-box-shadow: -4px 9px 7px -5px $color;
+  box-shadow: -4px 9px 7px -5px $color;
+}

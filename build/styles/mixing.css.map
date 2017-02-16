@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AACE,kBAAW;EACT,MAAM,EAAE,UAAU;AAGpB,iDAA0B;EACxB,kBAAkB,EAAE,yBAAqC;EACzD,eAAe,EAAE,yBAAqC;EACtD,UAAU,EAAE,yBAAqC",
-"sources": ["../../src/styles/mixing.scss"],
+"mappings": "AAIE,kBAAW;EACT,MAAM,EAAE,UAAU;AAGpB,iDAA0B;ECD1B,kBAAkB,EAAE,yBAAwB;EAC5C,cAAc,EAAE,yBAAwB;EACxC,UAAU,EAAE,yBAAwB",
+"sources": ["../../src/styles/mixing.scss","../../src/styles/variables.scss"],
 "names": [],
 "file": "mixing.css"
 }

@@ -3,12 +3,14 @@
 .nesting {
 
   .panel.panel-default {
+
     .panel-heading {
       color: $white;
       background: $green;
     }
 
     .panel-body .panel.panel-default {
+      
       .panel-heading {
         background: $blue;
       }
